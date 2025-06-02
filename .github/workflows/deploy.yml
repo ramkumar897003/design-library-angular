@@ -19,8 +19,11 @@ jobs:
       - name: Install Angular CLI
         run: npm install -g @angular/cli
 
-      - name: Build Angular App
-        run: npm run build -- --configuration production
+      - name: Build Library
+        run: npm run build my-ui-lib -- --configuration production
+
+      - name: Build Sandbox App
+        run: npm run build sandbox -- --configuration production
 
       - name: Deploy to Github Pages
         uses: JamesIves/github-pages-deploy-action@v4
