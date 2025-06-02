@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Demo Application
 
-[Click Here](https://ramkumar897003.github.io/design-library-angular/)
+<a href="https://ramkumar897003.github.io/design-library-angular/" target="_blank" rel="noopener noreferrer">Click Here</a>
 
 ## Development server
 
