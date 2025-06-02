@@ -64,7 +64,7 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/design-library-angular",
+              "baseHref": "/design-library-angular/",
               "budgets": [
                 {
                   "type": "initial",
