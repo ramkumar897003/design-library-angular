@@ -16,8 +16,11 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
 
+      - name: Install Angular CLI
+        run: npm install -g @angular/cli
+
       - name: Build Angular App
-        run: npx ng build -- --configuration production
+        run: npm run build -- --configuration production
 
       - name: Deploy to Github Pages
         uses: JamesIves/github-pages-deploy-action@v4
