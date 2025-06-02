@@ -33,5 +33,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: dist/sandbox
+          folder: dist/sandbox/browser
           token: ${{ secrets.GH_PAT }}
